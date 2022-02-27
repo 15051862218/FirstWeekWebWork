@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+<img src="/ResponseDemo4" alt="验证码" id="verifyCode">
+<a href="" id="change"> 看不清换</a>
+<script>
+    window.onload = function (){
+        const img=document.getElementById("verifyCode");
+        img.onclick=function (){
+            const date =new Date().getTime();
+            img.src="/demo11_war_exploded/ResponseDemo4"+date;
+        }
+    }
+</script>
+</body>
+</html>

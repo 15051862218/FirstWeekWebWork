@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Day01WebWork:war">
+    <output-path>$PROJECT_DIR$/Day01WebWork/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Day01WebWork</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Day01WebWork-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Day01WebWork:war exploded" />
+    </root>
+  </artifact>
+</component>

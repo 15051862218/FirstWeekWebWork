@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FirstWeekWebWork:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>FirstWeekWebWork</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="FirstWeekWebWork-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FirstWeekWebWork:war exploded" />
+    </root>
+  </artifact>
+</component>

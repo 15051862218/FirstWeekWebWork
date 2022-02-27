@@ -1,0 +1,5 @@
+# Project exclude paths
+/Day01WebWork/target/
+/Day02WebWork/target/
+/Day03WebWork/target/
+/target/
