@@ -5,7 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/Day01WebWork/Day01WebWork.iml" filepath="$PROJECT_DIR$/Day01WebWork/Day01WebWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day02WebWork/Day02WebWork.iml" filepath="$PROJECT_DIR$/Day02WebWork/Day02WebWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/Day03WebWork.iml" filepath="$PROJECT_DIR$/demo/Day03WebWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day04WebWork/Day04WebWork.iml" filepath="$PROJECT_DIR$/Day04WebWork/Day04WebWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstWeekWebWork.iml" filepath="$PROJECT_DIR$/FirstWeekWebWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comprehesive-exercise/comprehesive-exercise.iml" filepath="$PROJECT_DIR$/comprehesive-exercise/comprehesive-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day03WebWork/demo.iml" filepath="$PROJECT_DIR$/Day03WebWork/demo.iml" />
     </modules>
   </component>
 </project>

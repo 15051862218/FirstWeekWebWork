@@ -2,20 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Day04WebWork" />
         <module name="Day01WebWork" />
         <module name="Day03WebWork" />
-        <module name="FirstWeekWebWork" />
+        <module name="comprehesive-exercise" />
         <module name="Day02WebWork" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="comprehesive-exercise" target="1.8" />
       <module name="Day01WebWork" target="1.8" />
       <module name="Day02WebWork" target="1.8" />
       <module name="Day03WebWork" target="1.8" />
+      <module name="Day04WebWork" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="FirstWeekWebWork" target="1.8" />
     </bytecodeTargetLevel>
   </component>
