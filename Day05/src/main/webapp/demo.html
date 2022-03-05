@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const  jsonStr ='{"name":"张三","age":27,"male":true,"cities":["北京","上海","南京"]}';
+    console.log(jsonStr)
+    console.log(typeof  jsonStr)
+    const jsonObj =JSON.parse(jsonStr)
+    console.log(jsonObj)
+    console.log(jsonObj.name)
+    const  obj ={
+        name:"李四",
+        age:25
+    }
+    console.log(typeof obj)
+    console.log(obj.name)
+    const  objStr=JSON.stringify(obj);
+    console.log(typeof objStr)
+</script>
+</body>
+</html>

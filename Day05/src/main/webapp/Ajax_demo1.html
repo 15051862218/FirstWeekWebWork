@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aiax请求实例</title>
+</head>
+<body>
+<!--<h1>Js定时器</h1>-->
+<!--<label for="clock">js定时器</label>-->
+<!--<input type="text" id="clock">-->
+<!--<input type="button" id="btn2" value="停止">-->
+
+<h1>下方是服务器返回的数据</h1>
+<hr>
+<h2 id="info"></h2>
+<!--<button id="btn">点击</button>-->
+<script>
+   //  let count=setInterval("clock()",1000);
+   //  function  clock(){
+   //      let d=new Date();
+   //      document.getElementById("clock").value=d.toLocaleTimeString();
+   //  }
+   //  let bt=document.getElementById("btn2");
+   //  // bt.onclick=function (){
+   //  //     window.clearInterval()
+   //  // }
+   //  let btn=document.getElementById("btn");
+   // btn.onclick=function (){
+   //     let xHttp;
+   //     if (window.XMLHttpRequest){
+   //         xHttp=new XMLHttpRequest();
+   //
+   //     }else {
+   //         xHttp =new ActiveXObject("Microsoft.XMLHTTP");
+   //     }
+   //     xHttp.open("GET","/ajaxServlet");
+   //     xHttp.send();
+   //     xHttp.onreadystatechange =function (){
+   //         if (this.readyState ===4 && this.status ===200 ){
+   //             document.getElementById("info").innerHTML =this.responseText
+   //         }
+   //     };
+   // }
+   let xHttp;
+       if (window.XMLHttpRequest){
+           xHttp=new XMLHttpRequest();
+
+       }else {
+           xHttp =new ActiveXObject("Microsoft.XMLHTTP");
+       }
+       xHttp.open("GET","http://localhost:8080/ajaxServlet");
+       xHttp.send();
+       xHttp.onreadystatechange =function (){
+           if (this.readyState ===4 && this.status ===200 ){
+               // document.getElementById("info").innerHTML =this.responseText
+              document.getElementById("info").innerHTML=this.responseText;
+           }
+
+   }
+
+</script>
+</body>
+</html>
